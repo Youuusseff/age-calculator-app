@@ -21,32 +21,32 @@
       <div class="first">
         <div class="input">
           <label for="">DAY</label>
-          <input type="text" placeholder="DD">
+          <input type="text" placeholder="DD" id="day">
         </div>
         <div class="input">
           <label for="">MONTH</label>
-          <input type="text" placeholder="MM">
+          <input type="text" placeholder="MM" id="month">
         </div>
         <div class="input">
           <label for="">YEAR</label>
-          <input type="text" placeholder="YYYY">
+          <input type="text" placeholder="YYYY" id="year">
         </div>
       </div>
       <div class="middle">
         <div class="line"></div>
-        <button><svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+        <button title="." onclick="ajouter()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
       </div>
       <div class="last">
         <d  iv class="screen">
-          <div class="output">- -</div>
+          <div class="output" id="out-year">- -</div>
           <h1>years</h1>
         </div>
         <div class="screen">
-          <div class="output">- -</div>
+          <div class="output" id="out-month">- -</div>
           <h1>months</h1>
         </div>
         <div class="screen">
-          <div class="output">- -</div>
+          <div class="output" id="out-day">- -</div>
           <h1>days</h1>
         </div>
       </div>

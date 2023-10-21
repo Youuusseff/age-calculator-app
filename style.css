@@ -40,11 +40,16 @@ label{
     color: #716F6F;
     letter-spacing: 0.2rem;
 }
+p{
+    color: rgb(232, 41, 41);
+    font-size: 0.7rem;
+    font-weight: 700;
+}
 .input:first-child{
     margin-left: 0;
 }
-input{
-    border-color: #716f6f6f !important;
+.inputy{
+    border-color: #716f6f6f;
     border: solid 1px;
     outline: none;
     height: 3rem;
